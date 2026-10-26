@@ -85,3 +85,10 @@ Phạm Duy Tiễn, Khoa Nông nghiệp và Tài nguyên thiên nhiên, Trường
 ### Giấy phép
 
 MIT. Xem tệp `LICENSE`.
+
+---
+
+## Note on the code / Ghi chú về mã nguồn
+
+The script in `gee/htx-giam-sat-lua-v24.js` is a demo version. The embedded fallback data use anonymised household labels ("Hộ BT8-xx"); real household names are kept in the cooperative's private asset and are not published here.
+Mã trong `gee/htx-giam-sat-lua-v24.js` là bản demo. Dữ liệu dự phòng nhúng trong mã dùng nhãn hộ ẩn danh ("Hộ BT8-xx"); tên hộ thật nằm trong asset riêng của HTX và không công bố tại đây.
