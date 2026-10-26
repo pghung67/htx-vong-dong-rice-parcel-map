@@ -10,7 +10,7 @@ A free, open toolkit for parcel-level rice field mapping for agricultural cooper
 
 ### Why this exists
 
-Smallholder cooperatives in the Mekong Delta rarely have access to low-cost tools that show which parcel is planted with which variety and when it was sown. This project provides a simple web map that links each rice parcel to its variety and sowing-date record, and documents how those records can be used as ground truth for Sentinel-1 sowing-date detection.
+Smallholder cooperatives in the Mekong Delta rarely have access to low-cost tools that show which parcel is planted with which variety and when it was sown. This project provides a simple web map that links each rice parcel to its variety and sowing-date record, and documents how Sentinel-1 and Sentinel-2 time series are used to track growth stage and flag harvest.
 
 ### What is in this repository
 
@@ -18,7 +18,7 @@ Smallholder cooperatives in the Mekong Delta rarely have access to low-cost tool
 |---|---|
 | `gee/` | Google Earth Engine (JavaScript) code for the parcel map app |
 | `web/` | Source of the cooperative rice-field web map (optional) |
-| `docs/` | Method notes, including ground-truthing of Sentinel-1 sowing dates |
+| `docs/` | Method notes on how the app uses Sentinel-1 and Sentinel-2 (`satellite-methods.md`) |
 | `data/sample/` | Anonymised sample data showing the expected schema |
 
 ### Live demos
@@ -52,7 +52,7 @@ Bộ công cụ mở, miễn phí để lập bản đồ ruộng lúa đến c�
 
 ### Mục đích
 
-Các HTX quy mô nhỏ ở ĐBSCL hiếm khi có công cụ chi phí thấp để biết thửa nào trồng giống gì và sạ khi nào. Dự án cung cấp một bản đồ web đơn giản gắn mỗi thửa ruộng với giống lúa và ngày sạ, đồng thời mô tả cách dùng các bản ghi này làm dữ liệu thực địa để kiểm chứng việc phát hiện ngày sạ từ ảnh Sentinel-1.
+Các HTX quy mô nhỏ ở ĐBSCL hiếm khi có công cụ chi phí thấp để biết thửa nào trồng giống gì và sạ khi nào. Dự án cung cấp một bản đồ web đơn giản gắn mỗi thửa ruộng với giống lúa và ngày sạ, đồng thời mô tả cách dùng chuỗi ảnh Sentinel-1 và Sentinel-2 để theo dõi giai đoạn sinh trưởng và cảnh báo thu hoạch.
 
 ### Nội dung kho mã
 
@@ -60,7 +60,7 @@ Các HTX quy mô nhỏ ở ĐBSCL hiếm khi có công cụ chi phí thấp đ�
 |---|---|
 | `gee/` | Mã Google Earth Engine (JavaScript) của ứng dụng bản đồ thửa ruộng |
 | `web/` | Mã nguồn bản đồ web ruộng lúa của HTX (tùy chọn) |
-| `docs/` | Ghi chú phương pháp, gồm kiểm chứng ngày sạ Sentinel-1 |
+| `docs/` | Ghi chú phương pháp dùng ảnh Sentinel-1 và Sentinel-2 (`satellite-methods.md`) |
 | `data/sample/` | Dữ liệu mẫu đã ẩn danh, minh họa cấu trúc dữ liệu |
 
 ### Bản chạy thử
